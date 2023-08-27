@@ -53,6 +53,7 @@ if platform.system() == "Windows":
     # scriptPath = "%s/sys/scripts" % os.environ.get('SCRIPTS_DIR', '//10.110.65.128/incam/genesis')
     # --新增windows包路径
     sys.path.insert(0, "\\\\192.168.17.61\\扫描文件\\暂时不要删除--刘才林\\pythonEnv\\Package")
+    sys.path.insert(0, "F:\\Python\\Package")
 else:
     # scriptPath = "%s/scripts" % os.environ.get('SCRIPTS_DIR', '/genesis/output/incam/genesis')
     # --新增linux包路径
