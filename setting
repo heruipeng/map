@@ -1,2 +1,3 @@
 [setting]
    debug = turn
+   start = 0
